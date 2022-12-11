@@ -8,15 +8,31 @@
 </head>
 <body>
     <h1>Ejercicios parte 2</h1>
-    <form onsubmit="">
-        <label for="fname">Numero 1:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Numero 2:</label><br>
-        <input type="text" id="lname" name="lname"><br>
-        <label for="lname">Numero 3:</label><br>
-        <input type="text" id="lname" name="lname"><br><br>
-        <input type="submit" value="Submit">
-      </form>
+    <h3>Numero Maximo</h3>
+    <form action="">
+        <label for="numero1">Numero 1:</label><br>
+        <input type="text" id="num1" name="numero1"><br>
+        <label for="numero2">Numero 2:</label><br>
+        <input type="text" id="num2" name="numero2"><br>
+        <label for="numero3">Numero 3:</label><br>
+        <input type="text" id="num3" name="numero3"><br><br>
+        <input type="button" value="Maximo" onclick="MaxNum();">
+        </form>
+        <p>El resultado es: </p><strong id="result"></strong>
+        <hr>
+        <h3>Numero Menor</h3>
+        <label for="numero1">Numero 1:</label><br>
+        <input type="text" id="minnum1" name="numero1"><br>
+        <label for="numero2">Numero 2:</label><br>
+        <input type="text" id="minnum2" name="numero2"><br>
+        <label for="numero3">Numero 3:</label><br>
+        <input type="text" id="minnum3" name="numero3"><br><br>
+        <input type="button" value="Minimo" onclick="MinNum();">
+        </form>
+        <p>El resultado es: </p><strong id="resultmin"></strong>
+        <hr>
+        
+
     <script src="js/main.js"></script>
 </body>
 </html>
